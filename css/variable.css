@@ -1,0 +1,31 @@
+:root {
+    --primary-color-midnight-green: #014E56;
+    --primary-color-coral: #F67E7E;
+    --primary-color-white: #FFFFFF;
+    --secondary-color-raptute-blue: #79C8C7;
+    --secondary-color-police-blue: #2C6269;
+    --secondary-color-jungle-blue: #004047;
+    --secondary-color-state-green: #012F34;
+    --secondary-color-dark-green: #002529;
+    
+    --main-font-famaly: "Livvic", sans-serif;
+
+    --h1-large-fs: 10rem;
+    --h1-large-lh: 1;
+
+    --h1-small-fs: 6.4rem;
+    --h1-small-lh: 0.875;
+
+    --h2-fs: 6.4rem;
+    --h2-lh: 1;
+
+    --h3-fs: 1.8rem;
+    --h3-lh: 1.55;
+
+    --body-fs: 1.8rem;
+    --body-lh: 1.55;
+
+    --body-small-fs: 1.5rem;
+    --body-small-lh: 1.66;
+
+}

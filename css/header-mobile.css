@@ -1,0 +1,101 @@
+@media (max-width: 375px) {
+    .header {
+        width: 375px;
+        height: 567px;
+        background-color: var(--primary-color-midnight-green);
+        background-image: 
+        none,
+        url(../images/bg-pattern-home-2.svg);
+        background-repeat: no-repeat;  
+        background-size: none, cover;  
+        background-position: 
+        top 250px left -100px,
+        bottom  right 50%;
+    }
+
+    .navbar {
+        width: 327px;
+        height: 32px;
+        gap: 22rem;
+        padding-left: 3.9rem;
+        padding-top: 4.8rem;
+        margin-bottom: 0;
+        margin-bottom: 8rem;
+    }
+    
+    .nav-left-ul {
+        display: none;
+    }
+
+    .nav-img {
+        width: 128px;
+        height: 32px;
+    }
+
+    .button {
+        display: none;
+    }
+    .navbar-hamburger {
+        position: absolute;
+        display: block;
+        top: 0.8rem;
+        right:  -19rem;
+        z-index: 10;
+        
+    }
+
+    .header-main-h1 {
+        height: 80px;        
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;        
+    }
+
+    .header-main-text {
+        width: 325px;
+        text-align: center;
+        font-size: 15px;
+        line-height: 28px;
+        color: var(--primary-color-white);
+    }
+
+    /* SECTION-one */
+    .section-one {
+        padding: 6.4rem 2.4rem;
+        height: 1073px;
+        background-position:     
+        top 0  left 260px;
+    }
+    .section-one-left {
+        width: 240px;
+    }
+    .section-hr {
+    }
+    .section-one-left-h1 {
+        font-size: 3.2rem;
+        line-height: 1;
+    }
+    .section-one-right {
+        width: 327px;
+        height: 693px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.6rem;
+    }
+    .section-one-right-top {
+    }
+    .section-one-right-h1 {
+        text-align: center;
+        font-size: 1.8rem;
+        line-height: 1.55;
+    }
+    .section-one-right-text {
+        width: 327px;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 1.66;
+    }
+    .section-one-right-img {
+        display: flex;
+        justify-content: center;
+    }
+}

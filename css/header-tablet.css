@@ -1,0 +1,80 @@
+@media (max-width: 768px) {
+    .header {
+        width: 768px;
+        height: 700px;
+        background-color: var(--primary-color-midnight-green);
+        background-image: 
+        none,
+        url(../images/bg-pattern-home-2.svg);
+        background-repeat: no-repeat;
+        background-size: auto;    
+        background-position: 
+        top 250px left -100px,
+        bottom  right 50%;
+    }
+
+    .header-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.4rem;
+        padding-top: 0;
+    }
+
+    .header-main-h1 {
+        height: 112px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 56px;
+        text-align: center;        
+    }
+
+    .header-main-text {
+        width: 457px;
+        text-align: center;
+        font-size: 15px;
+        line-height: 28px;
+        color: var(--primary-color-white);
+    }
+
+    .navbar {
+        gap: 22rem;
+        padding-left: 3.9rem;
+    }
+    .nav-left {
+        gap: 4.8rem;
+    }
+
+    .nav-img {
+        width: 128px;
+        height: 32px;
+    }
+    /* Section-one */
+    .section-one {
+        width: 768px;
+        height: 710px;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10rem 9.7rem;
+        background-position:     
+        top  right -100px;
+        
+    }
+    .section-one-left {
+        padding-top: 6px;
+    }
+    .section-hr {
+    }
+    .section-one-left-h1 {
+        font-size: 3.2rem;
+        line-height: 1;
+    }
+    .section-one-right {
+    }
+    .section-one-right-top {
+    }
+    .section-one-right-h1 {
+    }
+    .section-one-right-text {
+        width: 478px;
+    }
+}

@@ -1,0 +1,84 @@
+/* PRIMERY BUTTON START */
+.normal-state-light-btn {
+    width: 153px;
+    height: 48px;
+    border: 0.2rem solid var(--primary-color-white);
+    background-color: transparent;
+    border-radius: 25px;
+    color: var(--primary-color-white);
+    padding: 1.1rem 3.2rem;
+}
+
+.hover-state-light-btn {
+    width: 153px;
+    height: 48px;
+    border: 0.2rem solid var(--primary-color-white);
+    background-color: var(--primary-color-white);
+    border-radius: 50%;
+    color: var(--secondary-color-dark-green);
+}
+.disabled-state-light-btn {
+    width: 153px;
+    height: 48px;
+    border: 0.2rem solid var(--primary-color-white);
+    background-color: transparent;
+    opacity: 25%;
+    border-radius: 50%;
+    color: var(--primary-color-white);
+}
+.normal-state-dark-btn {
+    width: 153px;
+    height: 48px;
+    border: 0.2rem solid var(--secondary-color-state-green);
+    background-color: transparent;
+    border-radius: 50%;
+    color: var(--secondary-color-state-green);
+}
+
+.hover-state-dark-btn {
+    width: 153px;
+    height: 48px;
+    border: 0.2rem solid var(--secondary-color-state-green);
+    background-color: var(--secondary-color-state-green);
+    border-radius: 50%;
+    color: var(--primary-color-white);
+}
+.disabled-state-dark-btn {
+    width: 153px;
+    height: 48px;
+    border: 0.2rem solid var(--secondary-color-state-green);
+    background-color: transparent;
+    opacity: 25%;
+    border-radius: 50%;
+    color: var(--secondary-color-state-green);
+}
+/* PRIMERY BUTTON END */
+
+/* SECONDARY BUTTON START */
+.secondary-normal-state-light-btn {
+    width: 153px;
+    height: 48px;
+    border: 0.2rem solid var(--primary-color-white);
+    background-color: var(--primary-color-white);
+    border-radius: 50%;
+    color: var(--secondary-color-dark-green);
+}
+
+.secondary-hover-state-light-btn {
+    width: 153px;
+    height: 48px;
+    border: 0.2rem solid var(--secondary-color-raptute-blue);
+    background-color: var(--secondary-color-raptute-blue);
+    border-radius: 50%;
+    color: var(--secondary-color-dark-green);
+}
+
+.secondary-disabled-dark-green-btn {
+    width: 153px;
+    height: 48px;
+    border: 0.2rem solid var(--primary-color-white);
+    background-color: var(--primary-color-white);
+    border-radius: 50%;
+    color: var(--secondary-color-dark-green);
+    opacity: 25%;
+}
