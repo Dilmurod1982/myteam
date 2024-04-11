@@ -23,6 +23,9 @@
         margin-bottom: 8rem;
     }
     
+    .nav-left {
+        position: relative;
+    }
     .nav-left-ul {
         display: none;
     }
@@ -39,10 +42,21 @@
         position: absolute;
         display: block;
         top: 0.8rem;
-        right:  -19rem;
-        z-index: 10;
-        
+        right:  -17rem;
+        z-index: 10;        
     }
+
+    .navbar-hamburger-link:active .humburger {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        background-color: #FFFFFF;
+        z-index: 15;
+    }
+
 
     .header-main-h1 {
         height: 80px;        
