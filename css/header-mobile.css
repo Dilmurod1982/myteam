@@ -98,4 +98,124 @@
         display: flex;
         justify-content: center;
     }
+    .section-two { 
+        height: 1440px;
+        padding-top: 140px;
+        padding-left: 2.4rem;
+        padding-right: 2.4rem;
+        background-position: 
+        top left,
+        bottom  left 160px;
+    }
+    .section-two-h1 {
+        width: 327px;
+        margin-bottom: 4.8rem;
+        
+    }
+    .section-two-h1-text {
+        
+    }
+    .section-two-wrapper {
+        width: 327px;        
+    }
+    .section-two-wrapper-item {
+        width: 327px;
+    }
+    .section-two-wrapper-item-text {
+        width: 327px;
+    }
+    .section-two-wrapper-item-name {
+        width: 327px;
+    }
+    .section-two-wrapper-item-title {
+        width: 327px;
+    }
+    .section-two-img {
+    }
+    .section-two-img-link {
+    }
+
+    /* section three */
+
+    .section-three {
+        width: 375px;
+        height: 302px;
+    }
+    .section-three-main {
+        width: 327px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-three-h1 {
+        text-align: center;
+        font-size: 3.2rem;
+        line-height: 1;
+    }
+    .section-three-btn {
+    }
+    .normal-state-dark-btn {
+    }
+
+    /* footer */
+
+    .footer {
+        width: 375px;
+        height: 432px;
+        padding: 6.6rem 2.4rem;
+        grid-template-rows: repeat(15, 1fr);
+    }
+    .footer-one {
+        height: 73px;
+        grid-column: 1/13;        
+        justify-self: center;
+    }
+    .footer-one .nav-img img {
+        width: 96px;
+        height: 24px;
+       
+        margin-bottom: 0;
+    }
+    
+    .footer-one .nav-img {   
+        display: flex;     
+        margin-bottom: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-one .nav-left-ul {
+        grid-column: 1/12;
+        grid-row: 4/6;
+    }
+    .nav-left-list {
+    }
+    .nav-left-list-link {
+    }
+    .footer-two {
+        grid-column: 1/13;
+        grid-row: 5/12;
+        justify-self: center;
+    }
+    .footer-text {
+        text-align: center;
+    }
+    .footer-phone {
+    }
+    .footer-text-link {
+    }
+    .footer-three {
+        grid-column: 1/13;
+        grid-row: 13/14;
+        justify-self: center;
+    }
+    .footer-three-img {
+    }
+    .svg {
+    }
+    .footer-four {
+        grid-column: 1/13;
+        grid-row: 14/16;
+        align-self: self-end;
+        justify-self: center;
+    }
 }

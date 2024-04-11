@@ -77,4 +77,118 @@
     .section-one-right-text {
         width: 478px;
     }
+
+    /* section two */
+
+    .section-two {
+        width: 768px;
+        height: 1199px;
+        padding: 10rem 9.7rem;       
+    }
+    .section-two-h1 {
+        width: 573px;        
+        font-size: 3.2rem;
+        line-height: 1;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .section-two-h1-text {
+    }
+    .section-two-wrapper {
+        width: 573px;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .section-two-wrapper-item {
+        width: 573px;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-two-wrapper-item-text {
+    }
+    .section-two-wrapper-item-name {
+    }
+    .section-two-wrapper-item-title {
+    }
+    .section-two-img {
+    }
+    .section-two-img-link {
+    }
+
+    /* section three */
+
+    .section-three {
+        width: 768px;
+        height: 200px;
+        background-position: bottom -25px left 0;
+    }
+    .section-three-main {
+        width: 573px;
+        height: 48px;
+    }
+    .section-three-h1 {
+        font-size: 3.2rem;
+        line-height: 1;
+    }
+    .section-three-btn {
+    }
+    .normal-state-dark-btn {
+        font-size: 1.8rem;        
+    }
+
+    /* footer */
+
+    .footer {
+        width: 768px;
+        height: 271px;
+        padding: 5.6rem 3.9rem;
+    }
+    .footer-one {
+
+    }
+
+    .footer-one .nav-img img {
+        width: 96px;
+        height: 24px;
+        margin-bottom: 5.3rem;
+    }
+    .nav-img {
+    }
+    .footer-one .nav-left-ul .nav-left-list .nav-left-list-link {
+        font-size: 1.5rem;
+        line-height: 1.66;
+    }
+
+    .footer-one .nav-left-ul {
+        gap: 2.4rem;
+    }
+    .nav-left-list {
+    }
+    .nav-left-list-link {
+    }
+    .footer-two {
+        grid-column: 10/13;
+        justify-self: end;
+    }
+    .footer-text {
+        text-align: end;
+    }
+    .footer-phone {
+    }
+    .footer-text-link {
+    }
+    .footer-three {
+        grid-column: 1/4;
+        grid-row: 11/13;
+        
+    }
+    .footer-three-img {
+    }
+    .svg {
+    }
+    .footer-four {
+        grid-column: 7/13;
+    }
 }

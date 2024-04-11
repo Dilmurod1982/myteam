@@ -29,10 +29,14 @@
 .normal-state-dark-btn {
     width: 153px;
     height: 48px;
-    border: 0.2rem solid var(--secondary-color-state-green);
+    border: 3px solid var(--secondary-color-state-green);
     background-color: transparent;
-    border-radius: 50%;
+    border-radius: 25px;
     color: var(--secondary-color-state-green);
+    padding: 0.7rem 2.7rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.55;
 }
 
 .hover-state-dark-btn {
