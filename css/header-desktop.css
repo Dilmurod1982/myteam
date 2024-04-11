@@ -277,6 +277,12 @@
     background-color: transparent;
     border: none;
 }
+
+.normal-state-dark-btn:hover {
+    border: 0.2rem solid var(--secondary-color-state-green);
+    background-color: var(--secondary-color-state-green);    
+    color: var(--primary-color-white);
+}
 .normal-state-dark-btn {
 }
 
@@ -319,6 +325,11 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.footer-text-link:hover {
+    color: var(--primary-color-white);
+    opacity: 100%;
 }
 .footer-text-link {
     font-weight: 600;
