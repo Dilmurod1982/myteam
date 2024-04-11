@@ -46,11 +46,21 @@
 .nav-left-list-link {
     color: var(--primary-color-white);
 }
+
+.nav-left-list-link:hover {
+    color: var(--primary-color-coral);
+}
 .button {
     background-color: transparent;
     border: none;
 }
 .normal-state-light-btn {
+}
+
+.normal-state-light-btn:hover {
+    border: 0.2rem solid var(--primary-color-white);
+    background-color: var(--primary-color-white);    
+    color: var(--secondary-color-dark-green);
 }
 
 .navbar-hamburger {
