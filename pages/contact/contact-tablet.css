@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+    .header-contact {
+        width: 768px;
+        height: 1204px;
+    }
+    
+    .contact {
+        width: 768px;
+        height: 868px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 11.3rem;
+    }
+    .contact-left-box {
+    }
+    .contact-left-box-h1 {
+        text-align: center;
+    }
+    .contact-left-box-p {
+        text-align: center;
+    }
+    .contact-left-box-items {
+    }
+    .contact-left-box-item {
+    }
+    .contact-left-box-item-img {
+    }
+    .contact-left-box-item-text {
+    }
+    .contact-right-box {
+    }
+    .contact-input {
+    }
+    .contact-message {
+    }
+}

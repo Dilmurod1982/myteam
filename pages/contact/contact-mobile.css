@@ -1,0 +1,47 @@
+@media screen and (max-width: 375px) {
+    .header-contact {
+        width: 375px;
+        height: 1132px;
+        background-image:         
+        url(../../images/bg-pattern-contact-2.svg);
+        background-repeat: no-repeat;    
+        background-position:         
+        bottom -100px  right -100px;
+    }   
+    .contact {
+        height: 1132px;
+        width: 375px;
+        padding-left: 2.4rem;
+        padding-right: 0;
+    }
+    .contact-left-box {
+        width: 327px;
+    }
+    .contact-left-box-h1 {
+        font-size: 4rem;
+        line-height: 1;
+    }
+    .contact-left-box-p {
+    }
+    .contact-left-box-items {
+    }
+    .contact-left-box-item {
+    }
+    .contact-left-box-item-img {
+    }
+    .contact-left-box-item-text {
+        width: 232px;
+    }
+    .contact-right-box {
+        display: flex;
+        flex-direction: column;
+        width: 327px;
+        height: 420px;
+    }
+    .contact-input {
+        width: 325px;
+        height: 42px;
+    }
+    .contact-message {
+    }
+}

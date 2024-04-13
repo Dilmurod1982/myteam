@@ -59,6 +59,7 @@
 
 
     .header-main-h1 {
+        width: 327px;
         height: 80px;        
         font-size: 40px;
         line-height: 40px;
@@ -75,6 +76,7 @@
 
     /* SECTION-one */
     .section-one {
+        width: 375px;
         padding: 6.4rem 2.4rem;
         height: 1073px;
         background-position:     
